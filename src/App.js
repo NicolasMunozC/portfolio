@@ -1,9 +1,7 @@
 import './App.css';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import Main from './components/Main';
-import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
-
+import Welcome from './pages/Welcome';
 
 
 function App() {
@@ -11,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/welcome' element={<Welcome />} />
       </Routes>
     </BrowserRouter>
    );

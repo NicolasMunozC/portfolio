@@ -1,0 +1,9 @@
+.rotateLink{
+    transform: rotate(-90deg);
+    transition: 300ms linear;
+}
+
+.rotateLink:hover{
+    transform: rotate(0deg);
+    transition: 300ms linear;
+}

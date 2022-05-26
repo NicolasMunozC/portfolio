@@ -7,3 +7,20 @@
     transform: rotate(0deg);
     transition: 300ms linear;
 }
+
+
+.goingUp{
+    animation-name: fadeUp;
+    animation-duration: 1s;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
